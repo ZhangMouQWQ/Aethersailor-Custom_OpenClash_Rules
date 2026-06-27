@@ -1,5 +1,11 @@
-# Cloudflare Dash 面板域名
-# REPO: https://github.com/ZhangMouQWQ/Aethersailor-Custom_OpenClash_Rules
+# Generated from rule/Cloudflare_Dash_Domain.list
+# REPO: https://github.com/heunghingwan/Aethersailor-Custom_OpenClash_Rules
+# SOURCE: https://github.com/heunghingwan/Aethersailor-Custom_OpenClash_Rules/blob/main/rule/Cloudflare_Dash_Domain.list
+# TOTAL: 5
 
 payload:
-  - '*.cloudflare.*'
+  - '+.cloudflare.com'
+  - '+.dash.cloudflare.com'
+  - '+.api.cloudflare.com'
+  - '+.workers.dev'
+  - '+.pages.dev'

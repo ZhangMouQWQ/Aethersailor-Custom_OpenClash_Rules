@@ -1,0 +1,6 @@
+# Cloudflare Dash / dashboard related domains
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,dash.cloudflare.com
+DOMAIN-SUFFIX,api.cloudflare.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,pages.dev
