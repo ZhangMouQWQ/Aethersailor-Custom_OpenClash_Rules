@@ -1,0 +1,5 @@
+# Cloudflare Dash 面板域名
+# REPO: https://github.com/ZhangMouQWQ/Aethersailor-Custom_OpenClash_Rules
+
+payload:
+  - '+.dash.cloudflare.com'
