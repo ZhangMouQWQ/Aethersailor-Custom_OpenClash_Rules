@@ -2,4 +2,4 @@
 # REPO: https://github.com/ZhangMouQWQ/Aethersailor-Custom_OpenClash_Rules
 
 payload:
-  - '+.cloudflare.+'
+  - '*.cloudflare.*'
