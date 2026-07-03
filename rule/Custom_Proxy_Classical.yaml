@@ -9,7 +9,7 @@ payload:
   - DOMAIN-SUFFIX,clientservices.googleapis.com
   - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,dmhy.org
-  - DOMAIN-SUFFIX,gamebanana.com
+  - DOMAIN-SUFFIX,*.gamebanana.com
   - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,hoyolab.com
   - DOMAIN-SUFFIX,hoyoverse.com
