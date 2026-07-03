@@ -1,0 +1,9 @@
+# NAME: Custom_GitHub_OpenWrt
+# AUTHOR: Aethersailor
+# REPO: https://github.com/heunghingwan/Aethersailor-Custom_OpenClash_Rules
+# OpenWrt 相关服务链接，归入 GitHub 策略组
+
+# OpenWrt 主站及相关服务
+DOMAIN-SUFFIX,openwrt.org
+DOMAIN-SUFFIX,openwrt.ai
+DOMAIN-SUFFIX,lede-project.org

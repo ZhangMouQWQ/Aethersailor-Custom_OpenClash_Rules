@@ -1,0 +1,9 @@
+# Generated from rule/Custom_GitHub_OpenWrt.list
+# REPO: https://github.com/heunghingwan/Aethersailor-Custom_OpenClash_Rules
+# SOURCE: https://github.com/heunghingwan/Aethersailor-Custom_OpenClash_Rules/blob/main/rule/Custom_GitHub_OpenWrt.list
+# TOTAL: 3
+
+payload:
+  - '+.openwrt.org'
+  - '+.openwrt.ai'
+  - '+.lede-project.org'
