@@ -1,35 +1,26 @@
 # 金融数据API规则
 # 包含东方财富、akshare等被GFW拦截的金融类API域名
 # 这些API通常用于获取股票K线、基金等金融数据
+# REPO: https://github.com/heunghingwan/Aethersailor-Custom_OpenClash_Rules
+# TOTAL: 14
 
 payload:
   # 东方财富相关域名
-  - DOMAIN,api.eastmoney.com
-  - DOMAIN,quote.eastmoney.com
-  - DOMAIN,webquote.eastmoney.com
-  - DOMAIN,chartdata.eastmoney.com
-  - DOMAIN,dc.eastmoney.com
-  - DOMAIN,static.eastmoney.com
-  - DOMAIN,eastmoney.com
-  
+  - '+.eastmoney.com'
   # akshare财经数据API
-  - DOMAIN,akshare.akfamily.xyz
-  - DOMAIN,api.akshare.akfamily.xyz
-  - DOMAIN,akfamily.xyz
-  
+  - '+.akshare.akfamily.xyz'
+  - '+.akfamily.xyz'
   # 其他金融数据源
-  - DOMAIN,api.tushare.pro
-  - DOMAIN,api.tushare.academy
-  - DOMAIN,tushare.pro
-  - DOMAIN,tushare.academy
-  
+  - '+.tushare.pro'
+  - '+.tushare.academy'
   # 金融数据爬虫相关
-  - DOMAIN,httpbin.org
-  - DOMAIN,api.github.com
-  - DOMAIN,raw.githubusercontent.com
-  
-  # 其他财经数据源
-  - DOMAIN-KEYWORD,finance
-  - DOMAIN-KEYWORD,stock
-  - DOMAIN-KEYWORD,quote
-  - DOMAIN-KEYWORD,chart
+  - '+.httpbin.org'
+  - '+.api.github.com'
+  - '+.raw.githubusercontent.com'
+  # 其他财经数据源关键词匹配
+  - '*finance*'
+  - '*stock*'
+  - '*quote*'
+  - '*chart*'
+  - '*eastmoney*'
+  - '*akshare*'
